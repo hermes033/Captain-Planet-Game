@@ -1,0 +1,275 @@
+  @import url('https://fonts.googleapis.com/css2?family=Handjet&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  body {
+    height: 150vh;
+      background: linear-gradient(rgb(180, 434, 54), rgb(231, 234, 32));
+  }
+
+  .container {
+      width: 100%;
+      height: 100%;
+      position: relative;
+  }
+
+  /* header */
+  .header {
+      margin: 0 auto;
+      width: 65%;
+      height: 20vh;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      border: 3px solid white;
+      border-radius: 250px;
+      padding-top: 1.5em;
+      margin-top: 1vh;
+      background: transparent;
+      box-shadow: 1px 1px 15px white;
+  }
+
+  h1 {
+      color: coral;
+      font-family: 'Handjet', cursive;
+      font-size: 2.5em;
+      letter-spacing: 0.05em;
+  }
+
+  .rated {
+      font-size: 20px;
+      font-family: 'Handjet', cursive;
+      color: coral;
+      letter-spacing: 0.05em;
+  }
+
+  /*boxlar*/
+  .boxs {
+      display: flex;
+      flex-direction: column;
+      height: 80vh;
+  }
+
+  .box1,
+  .box2,
+  .box3,
+  .box4 {
+      border: 2px solid white;
+      width: 35%;
+      box-shadow: 1px 1px 10px white;
+      height: 20%;
+      border-radius: 15px;
+      margin-left: 2vh;
+      margin-top: 2vh;
+  }
+
+  .box2,
+  .box3,
+  .box4 {
+      margin-top: 2vh;
+  }
+
+  .box4 {
+      height: 26.5%;
+  }
+
+  /* top */
+
+  .top1,
+  .top2,
+  .top3,
+  .top4 {
+      border-bottom: 2px solid white;
+      color: crimson;
+  }
+
+  /* bottom */
+  .bottom2,
+  .bottom3,
+  .keyboard {
+      margin-left: 23.5vh;
+      margin-top: 3.5vh;
+  }
+
+  .bottom2-box4 {
+      margin: -1.5vh;
+  }
+
+  .bottom1 {
+      margin-left: 17.5vh;
+      margin-top: 3.5vh;
+  }
+
+
+  /* textler */
+  .text1,
+  .text2,
+  .text3,
+  .text4 {
+      padding-left: 2vh;
+      font-family: 'Tektur', cursive;
+  }
+
+  /* buttonlar */
+  button {
+      cursor: pointer;
+      font-family: 'Tektur', cursive;
+      width: 6.5em;
+      height: 3em;
+  }
+
+  .keyboard {
+      margin-left: 25vh;
+      position: absolute;
+  }
+
+  .keyboard button {
+      width: 3em;
+      height: 2.5em;
+  }
+
+  img {
+    transition: 0.5s all;
+      top: 12em;
+      position: absolute;
+      margin-left: 50em;
+  }
+
+  .yuxox button {
+      width: 3em;
+      height: 2.5em;
+      margin-left: 16.75em;
+      margin-top: 2vh;
+  }
+
+  .bottom2-box4 {
+      position: relative;
+      margin-bottom: 10vh;
+      margin-left: 50vh;
+  }
+
+  .goplnt {
+      background-color: pink;
+      border: none;
+      margin-left: 3vh;
+      margin-top: 2.5vh;
+      height: 5vh;
+      width: 8em;
+  }
+
+  .goplnt:hover {
+      color: white;
+      box-shadow: 1px 1px 10px pink;
+  }
+
+  /* box1 button reng */
+  .normal {
+      background-color: burlywood;
+      border-radius: 5px;
+      border: none;
+      transition: 0.3s all;
+  }
+
+  .normal:hover {
+      color: white;
+      box-shadow: 1px 1px 10px burlywood;
+  }
+
+  .grow {
+      background-color: darkcyan;
+      border-radius: 5px;
+      transition: 0.3s all;
+      border: none;
+  }
+
+  .grow:hover {
+      color: white;
+      box-shadow: 1px 1px 10px darkcyan;
+  }
+
+  .shrink {
+      background-color: red;
+      border-radius: 5px;
+      transition: 0.3s all;
+      border: none;
+  }
+
+  .shrink:hover {
+      color: white;
+      box-shadow: 1px 1px 10px red;
+  }
+
+  /* button reng orta */
+  .visible {
+      background-color: darkcyan;
+      border-radius: 5px;
+      transition: 0.3s all;
+      border: none;
+  }
+
+  .visible:hover {
+      color: white;
+      box-shadow: 1px 1px 10px darkcyan;
+  }
+
+  .invisible {
+      background-color: red;
+      border-radius: 5px;
+      transition: 0.3s all;
+      border: none;
+  }
+
+  .invisible:hover {
+      color: white;
+      box-shadow: 1px 1px 10px red;
+  }
+
+  /* button reng asagi */
+  .normal1 {
+      background-color: burlywood;
+      border-radius: 5px;
+      transition: 0.3s all;
+      border: none;
+  }
+
+  .normal1:hover {
+      color: white;
+      box-shadow: 1px 1px 10px burlywood;
+  }
+
+  .stretch {
+      background-color: red;
+      border-radius: 5px;
+      transition: 0.3s all;
+      border: none;
+  }
+
+  .stretch:hover {
+      color: white;
+      box-shadow: 1px 1px 10px red;
+  }
+
+  /* button keyboard color */
+
+  .yux,
+  .sol,
+  .asg,
+  .sag {
+      background-color: white;
+      border: none;
+      transition: 0.3s all;
+  }
+
+  .yux:hover,
+  .sol:hover,
+  .asg:hover,
+  .sag:hover {
+      color: red;
+      box-shadow: 1px 1px 10px white;
+  }
